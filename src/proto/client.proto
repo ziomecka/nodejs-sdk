@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Flow {
+    bool Accepted =1;
+}
+
+message Empty {}
+
+service Client {
+    rpc StartFlow(Empty) returns (Flow);
+}
+
+
+

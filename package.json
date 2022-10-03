@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "grpc-client": "node ./src/client.js",
+    "grpc-server": "node ./src/server.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "1.7.1",
+    "@grpc/proto-loader": "0.7.3"
+  }
+}
